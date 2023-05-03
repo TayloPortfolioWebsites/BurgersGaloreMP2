@@ -13,9 +13,9 @@
 </head>
 <body>
     <main>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container-fluid">
-              <span class="navbar-burgers-logo">Burgers</span><span class="navbar-galore-logo">Galore</span></a>
+              <span class="navbar-burgers-logo">Burgers</span><span class="navbar-galore-logo">Galore</span>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -25,13 +25,13 @@
                     <a class="nav-link" aria-current="page" href="#title">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Burgers</a>
+                    <a class="nav-link" href="#burgers">Burgers</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="#about">About Us</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="#footer">Contact Us</a>
                   </li>
                 </ul>
               </div>
@@ -51,10 +51,81 @@
         </div>
     </section>
 
-    <section>
+    <section id="burgers">
+        <div class="second-div-header">
+            <h1 class="burgers-header">BURGERS AROUND THE WORLD</h1>
+            <hr class="burgers-hr">
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 burgers-flags">
+            <div class="col">
+              <div class="card h-100">
+                <img src="images/united-kingdom.jpg" class="burgers-card-img" alt="">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="images/united states.jpg" class="burgers-card-img" alt="">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="images/sweden.jpg" class="burgers-card-img" alt="">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="images/italy.jpg" class="burgers-card-img" alt="">
+              </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                  <img src="images/germany.jpg" class="burgers-card-img" alt="">
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="images/landing-image.jpg" class="burgers-card-img" alt="">
+                </div>
+              </div>
+          </div>
+          <hr class="burgers-hr-2">
     </section>
 
-    <footer>
+    <section id="about">
+        <div class="row row-cols-1 row-cols-lg-2 g-4">
+            <div class="col">
+                <div class="third-div-header">
+                    <h1 class="about-header">WITH PASSION FOR REAL, <span class="about-good">GOOD FOOD</span></h1>
+                    <p class="about-description">We love to eat food and explore new food. <span class="about-good">Food is our common ground, a universal experience.</span> We are willing to try all the food that is new to people's taste, so we created this website to help food companies.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="third-div-img">
+                    <img src="images/third-div.jpg" class="about-image" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="row row-cols-1 row-cols-lg-2 g-4">
+            <div class="col">
+                <div class="fourth-div-logo">
+                    <span class="footer-logo">Burgers</span><span class="navbar-galore-logo">Galore</span>
+                    <p class="footer-description">Burgers Galore is a blog website where you can browse list of best selling burgers around the world.</p>
+                    <p class="footer-copyright">© Copyright 2023 Burgers Galore</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="fourth-div-contact">
+                    <p class="footer-inquiry">For Inquiries</p>
+                    <a href=""><img src="/images/facebook.png" alt="" class="footer-facebook"></a>
+                    <a href=""><img src="/images/twitter.png" alt="" class="footer-twitter"></a>
+                    <a href=""><img src="/images/instagram.png" alt="" class="footer-instagram"></a>
+                    <p class="footer-copypic">Image by rawpixel.com on Freepik</p>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

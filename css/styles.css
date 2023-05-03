@@ -1,13 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&family=Rowdies:wght@400;700&display=swap');
 
-
 body{
     background-color: #101010;
     font-family: 'Rowdies', cursive;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: #E99A2E;
 }
 
 nav{
-    background-color: #101010;
+    background-color: #121617;
 }
 
 .navbar{
@@ -30,6 +38,7 @@ nav{
 
 .nav-item{
     padding: 0 20px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .nav-link:hover{
@@ -51,7 +60,7 @@ nav{
 
 .title-header{
     margin: 0 auto;
-    padding-top: 9%;
+    padding-top: 14%;
     font-size: 80px;
     width: 886px;
     text-align: center;
@@ -96,4 +105,116 @@ nav{
 
 .first-div-button{
     text-align: center;
+}
+
+/****** BURGERS SECTION ******/
+
+#burgers{
+    background-color: #101010;
+    height: 100vh;
+}
+
+.burgers-header{
+    text-align: center;
+    padding-top: 8%;
+    color: #E99A2E;
+}
+
+.burgers-hr{
+    margin: 0 auto;
+    width: 90%;
+    border: 2px solid #E99A2E;
+}
+
+.burgers-flags{
+    margin: 1% 10%;
+}
+
+.burgers-card-img:hover{
+    opacity: 0.5
+}
+
+.burgers-hr-2{
+    margin: 3% auto;
+    width: 90%;
+    border: 2px solid #E99A2E;
+}
+
+/****** ABOUT SECTION ******/
+
+#about{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #101010;
+    height: 100vh;
+}
+
+.third-div-header{
+    margin-top: 20%;
+    margin-left: 20%;
+}
+
+.about-header{
+    font-weight: 700;
+    margin-bottom: 7%;
+    width: 516px;
+    font-size: 40px;
+    color: #E99A2E;
+}
+
+.about-description{
+    width: 588px;
+    font-size: 30px;
+    color: #E99A2E;
+}
+
+.third-div-img{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.about-image{
+    width: 442px;
+    height: 598px;
+}
+
+.about-good{
+    color: #FF3232;
+}
+
+/****** FOOTER SECTION ******/
+
+#footer{
+    background-color: #121617;
+    height: 228px;
+}
+
+.fourth-div-logo{
+    margin-left: 50%;
+}
+
+.footer-logo, .footer-inquiry{
+    color: #E99A2E;
+    font-size: 22px;
+}
+
+.footer-description{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #E99A2E;
+    width: 80%;
+    margin-top: 4%;
+}
+
+.footer-copyright, .footer-copypic{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #E99A2E;
+}
+
+.fourth-div-contact{
+    margin-left: 15%;
+}
+
+.footer-facebook, .footer-twitter, .footer-instagram{
+    padding-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 45px;
 }
