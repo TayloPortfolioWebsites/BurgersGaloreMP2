@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@400;700&display=swap');
+
+body{
+    background-color: #101010;
+}
+
+nav{
+    background-color: #101010;
+}
+
+.navbar-brand, .nav-link{
+    color: white;
+}
+
+.navbar-right-side{
+    margin-left: 80%;
+}
+
+/****** FIRST DIV *******/
+
+.first-div{
+    background-image: url('/images/landing-image.jpg');
+}
