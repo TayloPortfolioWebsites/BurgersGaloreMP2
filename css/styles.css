@@ -1,23 +1,99 @@
-@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&family=Rowdies:wght@400;700&display=swap');
+
 
 body{
     background-color: #101010;
+    font-family: 'Rowdies', cursive;
 }
 
 nav{
     background-color: #101010;
 }
 
-.navbar-brand, .nav-link{
-    color: white;
+.navbar{
+    padding: 20px 0;
+}
+
+.navbar-burgers-logo{
+    margin-left: 7%;
+}
+
+.navbar-burgers-logo, .nav-link{
+    color: #E99A2E;
+    font-size: 22px;
+}
+
+.navbar-galore-logo{
+    color: #CA3045;
+    font-size: 22px;
+}
+
+.nav-item{
+    padding: 0 20px;
+}
+
+.nav-link:hover{
+    color: #CA3045;
 }
 
 .navbar-right-side{
-    margin-left: 80%;
+    margin-left: 45%;
 }
 
 /****** FIRST DIV *******/
 
-.first-div{
-    background-image: url('/images/landing-image.jpg');
+#title{
+    background-image: linear-gradient(rgba(3, 4, 7, 0.48), rgba(5, 10, 30, 0.48)),url('https://github.com/TayloPortfolioWebsites/BurgersGaloreMP2/blob/main/images/landing-image.jpg?raw=true');
+    height: 100vh;
+    background-size: cover;
+    color: #E99A2E;
+}
+
+.title-header{
+    margin: 0 auto;
+    padding-top: 9%;
+    font-size: 80px;
+    width: 886px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.title-burgers, .title-best{
+    color: #FF3232;
+}
+
+.title-description{
+    margin: 0 auto;
+    padding-top: 2%;
+    font-size: 30px;
+    width: 675px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.title-btn{
+    background: #ff6b6b;
+    background-image: -webkit-linear-gradient(top, #ff4343, #FF3232);
+    background-image: -moz-linear-gradient(top, #ff4343, #FF3232);
+    background-image: -ms-linear-gradient(top, #ff4343, #FF3232);
+    background-image: -o-linear-gradient(top, #ff4343, #FF3232);
+    background-image: linear-gradient(to bottom, #ff4343, #FF3232);
+    -webkit-border-radius: 19;
+    -moz-border-radius: 19;
+    border-radius: 19px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 13px 23px 13px 23px;
+    text-decoration: none;
+    margin: 5% auto;
+}
+
+.title-btn:hover{
+    background: #FF3232;
+    text-decoration: none;
+}
+
+.first-div-button{
+    text-align: center;
 }
