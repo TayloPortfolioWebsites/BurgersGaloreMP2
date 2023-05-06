@@ -31,12 +31,7 @@ xhr22.onload = function () {
 
     var rname22 = ObjectData22[22].restaurant;
     var resto22 = document.createElement('li');
-    resto22.innerHTML = rname22;
-    document.getElementById('burger-restaurant-22').appendChild(resto22);
-
-    var rname22 = ObjectData22[22].restaurant;
-    var resto22 = document.createElement('li');
-    resto22.innerHTML = rname22;
+    resto22.innerHTML = "RESTAURANT: " + rname22;
     document.getElementById('burger-restaurant-22').appendChild(resto22);
 }
 xhr22.send(data22);
