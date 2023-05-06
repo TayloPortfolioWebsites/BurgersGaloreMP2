@@ -1,22 +1,38 @@
 # Proj-Documentation-Template
 # GROUP 3 : Mini-Project 2
-Background Of The project
-Sitemap
+
+---
+## Background Of The project
+Welcome to BurgersGalore, a website that serves as a brochure for different types of burgers from around the world.
+
+---
+Sitemap:
+
+---
 Wireframe LFD Link:
+https://www.figma.com/file/cD1zB2K5k7gUR94nz5XYak/BURGERS-GALORE-LFD-AND-HFD?type=design&node-id=0-1&t=Kjv0uFubNg3tE3gw-0
+
+---
 Wireframe HFD Link:
+https://www.figma.com/file/cD1zB2K5k7gUR94nz5XYak/BURGERS-GALORE-LFD-AND-HFD?type=design&node-id=0-1&t=Kjv0uFubNg3tE3gw-0
+
+---
 Github Page Link:
+https://github.com/TayloPortfolioWebsites/BurgersGaloreMP2.git 
+
+---
 Two weeks prior of the mini-project
 Project Goals / Services provided by the application
 TECHNOLOGIES and VERSION
 HTML , CSS, and Javascript
-PHP
-Laravel
+JQuery and API
+
+---
 TEAM CONTRIBUTORS:
-Member name 1
-Member name 2
-Member name 3
-Member name 4
-Member name 5
+1. Hazel Tiffany C. Taylo
+2. Kathleen Cyril Estolloso
+
+---
 OUTSIDE CONTRIBUTORS:
 CURRENT FEATURES IMPLEMENTED
 Responsive web design
