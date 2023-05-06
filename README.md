@@ -1,1 +1,31 @@
-# BurgersGaloreMP2
+# Proj-Documentation-Template
+# GROUP 3 : Mini-Project 2
+Background Of The project
+Sitemap
+Wireframe LFD Link:
+Wireframe HFD Link:
+Github Page Link:
+Two weeks prior of the mini-project
+Project Goals / Services provided by the application
+TECHNOLOGIES and VERSION
+HTML , CSS, and Javascript
+PHP
+Laravel
+TEAM CONTRIBUTORS:
+Member name 1
+Member name 2
+Member name 3
+Member name 4
+Member name 5
+OUTSIDE CONTRIBUTORS:
+CURRENT FEATURES IMPLEMENTED
+Responsive web design
+TESTING AND DEBUGGING TASKS DONE (POSSIBLE BUGS IN THE APPLICATION)
+SPEED TEST
+SEMANTIC VALIDATION
+RESPONSIVE WEB TEST
+TESTING DONE:
+SCREEN SHOT OF SCHEMA VALIDATION
+SCREEN SHOT OF GOOGLE PAGE SPEED INSIGHTS MOBILE
+SCREEN SHOT OF GOOGLE PAGE SPEED INSIGHTS DESKTOP
+ADDITIONAL POST-RELEASE FEATURES (OPTIONAL)
