@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&family=Rowdies:wght@400;700&display=swap');
 
+*{
+    list-style: none;
+}
+
 body{
     background-color: #101010;
     font-family: 'Rowdies', cursive;
@@ -11,7 +15,7 @@ a{
 }
 
 a:link{
-    color: #E99A2E;
+    color: #e9d92e;
 }
 
 nav{
@@ -27,7 +31,7 @@ nav{
 }
 
 .navbar-burgers-logo, .nav-link{
-    color: #E99A2E;
+    color: #e9d92e;
     font-size: 22px;
 }
 
@@ -55,7 +59,7 @@ nav{
     background-image: linear-gradient(rgba(3, 4, 7, 0.48), rgba(5, 10, 30, 0.48)),url('https://github.com/TayloPortfolioWebsites/BurgersGaloreMP2/blob/main/images/landing-image.jpg?raw=true');
     height: 100vh;
     background-size: cover;
-    color: #E99A2E;
+    color: #e9d92e;
 }
 
 .title-header{
@@ -80,7 +84,7 @@ nav{
     text-shadow: 2px 2px 4px #000000;
 }
 
-.title-btn{
+button.title-btn{
     background: #ff6b6b;
     background-image: -webkit-linear-gradient(top, #ff4343, #FF3232);
     background-image: -moz-linear-gradient(top, #ff4343, #FF3232);
@@ -98,7 +102,7 @@ nav{
     margin: 5% auto;
 }
 
-.title-btn:hover{
+button.title-btn:hover{
     background: #FF3232;
     text-decoration: none;
 }
@@ -117,13 +121,13 @@ nav{
 .burgers-header{
     text-align: center;
     padding-top: 8%;
-    color: #E99A2E;
+    color: #e9d92e;
 }
 
 .burgers-hr{
     margin: 0 auto;
     width: 90%;
-    border: 2px solid #E99A2E;
+    border: 2px solid #e9d92e;
 }
 
 .burgers-flags{
@@ -137,7 +141,7 @@ nav{
 .burgers-hr-2{
     margin: 3% auto;
     width: 90%;
-    border: 2px solid #E99A2E;
+    border: 2px solid #e9d92e;
 }
 
 /****** ABOUT SECTION ******/
@@ -158,13 +162,13 @@ nav{
     margin-bottom: 7%;
     width: 516px;
     font-size: 40px;
-    color: #E99A2E;
+    color: #e9d92e;
 }
 
 .about-description{
     width: 588px;
     font-size: 30px;
-    color: #E99A2E;
+    color: #e9d92e;
 }
 
 .third-div-img{
@@ -188,25 +192,26 @@ nav{
     height: 228px;
 }
 
+
 .fourth-div-logo{
     margin-left: 50%;
 }
 
 .footer-logo, .footer-inquiry{
-    color: #E99A2E;
+    color: #e9d92e;
     font-size: 22px;
 }
 
 .footer-description{
     font-family: 'Josefin Sans', sans-serif;
-    color: #E99A2E;
+    color: #e9d92e;
     width: 80%;
     margin-top: 4%;
 }
 
 .footer-copyright, .footer-copypic{
     font-family: 'Josefin Sans', sans-serif;
-    color: #E99A2E;
+    color: #e9d92e;
 }
 
 .fourth-div-contact{
@@ -218,3 +223,61 @@ nav{
     margin-top: 15px;
     margin-bottom: 45px;
 }
+
+/* BURGERS SECTION */
+
+#burgers{
+    background-color: #101010;
+    height: 110vh;
+}
+
+.card{
+    background-color: #2a2e2f;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e9d92e;
+    border-radius: 10px;
+
+}
+
+.carousel-inner{
+    margin: 5% auto;
+    width: 70%;
+}
+
+.carousel-tem-3{
+    margin: 0 auto;
+}
+
+img.card-img-top{
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-footer{
+    text-align: center;
+}
+
+button{
+    background: #ff6b6b;
+    background-image: -webkit-linear-gradient(top, #ff4343, #FF3232);
+    background-image: -moz-linear-gradient(top, #ff4343, #FF3232);
+    background-image: -ms-linear-gradient(top, #ff4343, #FF3232);
+    background-image: -o-linear-gradient(top, #ff4343, #FF3232);
+    background-image: linear-gradient(to bottom, #ff4343, #FF3232);
+    -webkit-border-radius: 19;
+    -moz-border-radius: 19;
+    border-radius: 19px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 5% auto;
+}
+
+button{
+    background: #FF3232;
+    text-decoration: none;
+}
+
+/* MEDIA QUERIES */

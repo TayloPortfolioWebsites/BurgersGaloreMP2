@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burgers Galore</title>
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <main>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+              <span class="navbar-burgers-logo">Burgers</span><span class="navbar-galore-logo">Galore</span>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-right-side">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#burgers">Burgers</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html#about">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#footer">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </main>
+
+    <section id="burgers">
+        <div class="second-div-header">
+            <h1 class="burgers-header">BURGERS AROUND THE WORLD</h1>
+            <hr class="burgers-hr">
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div class="col">
+                      <div class="card h-100">
+                          <img src="/images/tribute-burger.jpg" class="card-img-top" alt="Tribute Burger jpg">
+                        <div class="card-body">
+                          <h5 class="card-title" id="burger-name-0"></h5>
+                          <p class="card-text" id="burger-description-0"></p>
+                          <p id="burger-restaurant-0"></p>
+                          <p class="country">Country: <em>United Kingdom</em></p>
+                        </div>
+                        <div class="card-footer">
+                          <button onclick="window.open('https://www.honestburgers.co.uk/food/burgers/tribute/')">Order Now</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="/images/blondie-burger.jpg" class="card-img-top" alt="Blondie Burger jpg">
+                        <div class="card-body">
+                          <h5 class="card-title" id="burger-name-10"></h5>
+                          <p class="card-text" id="burger-description-10"></p>
+                          <p id="burger-restaurant-10"></p>
+                          <p class="country">Country: <em>South Africa</em></p>
+                        </div>
+                        <div class="card-footer">
+                            <button onclick="window.open('http://yankyslambton.co.za/menu/')">Order Now</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="/images/monster-burger.JPG" class="card-img-top" alt="Monster Burger jpg">
+                        <div class="card-body">
+                          <h5 class="card-title" id="burger-name-11"></h5>
+                          <p class="card-text" id="burger-description-11"></p>
+                          <p id="burger-restaurant-11"></p>
+                          <p class="country">Country: <em>South Africa</em></p>
+                        </div>
+                        <div class="card-footer">
+                            <button onclick="window.open('http://yankyslambton.co.za/menu/')">Order Now</button>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                          <img src="/images/buffalo-chicken-burger.jpg" class="card-img-top" alt="Chicken Burger jpg">
+                          <div class="card-body">
+                            <h5 class="card-title" id="burger-name-12"></h5>
+                            <p class="card-text" id="burger-description-12"></p>
+                            <p id="burger-restaurant-12"></p>
+                            <p class="country">Country: <em>United Kingdom</em></p>
+                          </div>
+                          <div class="card-footer">
+                            <button onclick="window.open('https://meatliquor.com/friedchicken-burgerslondon/')">Order Now</button>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                          <img src="/images/cheatday-burger.jpg" class="card-img-top" alt="Cheatday Burger jpg">
+                          <div class="card-body">
+                            <h5 class="card-title" id="burger-name-13"></h5>
+                            <p class="card-text" id="burger-description-13"></p>
+                            <p id="burger-restaurant-13"></p>
+                            <p class="country">Country: <em>Germany</em></p>
+                          </div>
+                          <div class="card-footer">
+                            <button onclick="window.open('https://www.burgeramt.com/')">Order Now</button>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                          <img src="/images/bbq-burger.jpeg" class="card-img-top" alt="BBQ Burger jpg">
+                          <div class="card-body">
+                            <h5 class="card-title" id="burger-name-16"></h5>
+                            <p class="card-text" id="burger-description-16"></p>
+                            <p id="burger-restaurant-16"></p>
+                            <p class="country">Country: <em>Canada</em></p>
+                          </div>
+                          <div class="card-footer">
+                            <button onclick="window.open('https://freshplantpowered.com/')">Order Now</button>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item carousel-item-3">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                          <img src="/images/carrolls-cheese-burger.png" class="card-img-top" alt="Carroll's Cheese Burger png">
+                          <div class="card-body">
+                            <h5 class="card-title" id="burger-name-17"></h5>
+                            <p class="card-text" id="burger-description-17"></p>
+                            <p id="burger-restaurant-17"></p>
+                            <p class="country">Country: <em>Germany</em></p>
+                          </div>
+                          <div class="card-footer">
+                            <button onclick="window.open('https://www.carrolls-pub-worms.de/')">Order Now</button>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                          <img src="/images/melting-potes.jpg" class="card-img-top" alt="Melting Potes Burger jpg">
+                          <div class="card-body">
+                            <h5 class="card-title" id="burger-name-22"></h5>
+                            <p class="card-text" id="burger-description-22"></p>
+                            <p id="burger-restaurant-22"></p>
+                            <p class="country">Country: <em>France</em></p>
+                          </div>
+                          <div class="card-footer">
+                            <button onclick="window.open('https://bigfernand.com/')">Order Now</button>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="/images/cajun-black-bean-burger.jpg" class="card-img-top" alt="Cajun Black Bean Burger jpg">
+                        <div class="card-body">
+                          <h5 class="card-title" id="burger-name-25"></h5>
+                          <p class="card-text" id="burger-description-25"></p>
+                          <p id="burger-restaurant-25"></p>
+                          <p class="country">Country: <em>United States</em></p>
+                        </div>
+                        <div class="card-footer">
+                          <button onclick="window.open('https://www.veggiediner.com/')">Order Now</button>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <hr class="burgers-hr-2">
+    </section>
+
+    <footer id="footer">
+        <div class="row row-cols-1 row-cols-lg-2 g-4">
+            <div class="col">
+                <div class="fourth-div-logo">
+                    <span class="footer-logo">Burgers</span><span class="navbar-galore-logo">Galore</span>
+                    <p class="footer-description">Burgers Galore is a blog website where you can browse list of best selling burgers around the world.</p>
+                    <p class="footer-copyright">© Copyright 2023 Burgers Galore</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="fourth-div-contact">
+                    <p class="footer-inquiry">For Inquiries</p>
+                    <a href=""><img src="/images/facebook.png" alt="" class="footer-facebook"></a>
+                    <a href=""><img src="/images/twitter.png" alt="" class="footer-twitter"></a>
+                    <a href=""><img src="/images/instagram.png" alt="" class="footer-instagram"></a>
+                    <p class="footer-copypic">Image by rawpixel.com on Freepik</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT FILE -->
+    <!-- <script src="index.js"></script>
+    <script src="blondie.js"></script>
+    <script src="monsterburger.js"></script>
+    <script src="buffalochicken.js"></script>
+    <script src="cheatday.js"></script>
+    <script src="bbqburger.js"></script>
+    <script src="carrollscheese.js"></script>
+    <script src="bigfernand.js"></script>
+    <script src="cajunblackbean.js"></script> -->
+</body>
+</html>
